@@ -17,7 +17,7 @@ function Projects() {
             />
             <ProjectCard 
             src={shadowDrive} 
-            link={`https://ddavidescu.github.io/ShadowDrive/`}
+            link={`https://ddavidescu.github.io/ShadowDrive-Rentals/`}
             h3="ShadowDrive"
             p="Car Rental Website"
             />
