@@ -53,12 +53,12 @@ function Hero() {
             </span>
 
             <p className={styles.description}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, iure.
+             Using HTML, CSS, and JavaScript, I bring captivating and innovative projects to life. I am always eager to develop my skills and learn new technologies. Explore my recent work and see how I can contribute to the success of your project!
             </p>
 
             <a href={CV} download>
                 <button className="hover">
-                    Resume
+                    Download CV
                 </button>
             </a>
         </div>

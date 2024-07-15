@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css'
-import shadowDrive from '../../assets/ShadowDriveLogo.png'
-import medicalAs from '../../assets/MedicalAsLogo.png'
+import shadowDrive from '../../assets/shadowdrive logo.png'
+import medicalAs from '../../assets/logo medicalas.png'
 import ProjectCard from '../../common/ProjectCard'
-import marieCurie from '../../assets/marie-curie.jpg'
+import marieCurie from '../../assets/GearQuest Logo.png'
 
 function Projects() {
   return (
@@ -13,7 +13,7 @@ function Projects() {
             src={medicalAs} 
             link={`https://medicalas.ro/`}
             h3="MedicalAs"
-            p="Medical Care"
+            p="Elderly Assistance Website"
             />
             <ProjectCard 
             src={shadowDrive} 
@@ -24,8 +24,8 @@ function Projects() {
             <ProjectCard 
             src={marieCurie} 
             link={`https://ddavidescu.github.io/tribute-page/`}
-            h3="Tribute Page"
-            p="for Marie Curie"
+            h3="GearQuest"
+            p="Clothing Website"
             />
         </div>
     </section>
