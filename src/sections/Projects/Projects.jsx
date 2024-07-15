@@ -3,6 +3,7 @@ import shadowDrive from '../../assets/shadowdrive logo.png'
 import medicalAs from '../../assets/logo medicalas.png'
 import ProjectCard from '../../common/ProjectCard'
 import GearQuest from '../../assets/GearQuest Logo.png'
+import RoyalFitness from '../../assets/Royal Fitness Logo.png'
 
 function Projects() {
   return (
@@ -26,6 +27,12 @@ function Projects() {
             link={`https://ddavidescu.github.io/GearQuest-Clothing-Website/`}
             h3="GearQuest"
             p="Clothing Website"
+            />
+            <ProjectCard 
+            src={RoyalFitness} 
+            link={`https://ddavidescu.github.io/Royal-Fitness-Gym-Website/`}
+            h3="Royal Fitness"
+            p="Gym Website"
             />
         </div>
     </section>
