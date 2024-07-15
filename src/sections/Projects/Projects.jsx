@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css'
 import shadowDrive from '../../assets/shadowdrive logo.png'
 import medicalAs from '../../assets/logo medicalas.png'
 import ProjectCard from '../../common/ProjectCard'
-import marieCurie from '../../assets/GearQuest Logo.png'
+import GearQuest from '../../assets/GearQuest Logo.png'
 
 function Projects() {
   return (
@@ -22,8 +22,8 @@ function Projects() {
             p="Car Rental Website"
             />
             <ProjectCard 
-            src={marieCurie} 
-            link={`https://ddavidescu.github.io/tribute-page/`}
+            src={GearQuest} 
+            link={`https://ddavidescu.github.io/GearQuest-Clothing-Website/`}
             h3="GearQuest"
             p="Clothing Website"
             />
