@@ -82,6 +82,13 @@
 }
 
 
+@media (width <= 800px){
+    .container{
+        padding: 30px 50px 0px 50px;
+        margin-bottom: 30px;
+    }
+}
+
 @media (width >= 800px) {
     .container {
         flex-direction: row-reverse;
@@ -104,3 +111,4 @@
         }
     }
 }
+
