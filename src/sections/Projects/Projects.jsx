@@ -4,6 +4,7 @@ import medicalAs from '../../assets/logo medicalas.png'
 import ProjectCard from '../../common/ProjectCard'
 import GearQuest from '../../assets/GearQuest Logo.png'
 import RoyalFitness from '../../assets/Royal Fitness Logo.png'
+import Pokedex from '../../assets/Pokedex logo.png'
 
 function Projects() {
   return (
@@ -33,6 +34,12 @@ function Projects() {
             link={`https://ddavidescu.github.io/Royal-Fitness-Gym-Website/`}
             h3="Royal Fitness"
             p="Gym Website"
+            />
+            <ProjectCard 
+            src={Pokedex} 
+            link={`https://ddavidescu.github.io/Pokedex/`}
+            h3="Pokédex"
+            p="Search Pokémon by name/number."
             />
         </div>
     </section>
