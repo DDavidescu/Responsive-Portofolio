@@ -13,9 +13,9 @@ function Projects() {
         <div className={styles.projectsContainer}>
             <ProjectCard 
             src={medicalAs} 
-            link={`https://medicalas.ro/`}
+            link={`https://ddavidescu.github.io/MedicalAs-2.0/`}
             h3="MedicalAs"
-            p="Elderly Assistance Website"
+            p="Elderly Assistance Website - in progress"
             />
             <ProjectCard 
             src={shadowDrive} 
