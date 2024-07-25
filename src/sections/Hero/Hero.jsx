@@ -40,7 +40,7 @@ function Hero() {
                 David
             </h1>
             <h2>
-                Junior Front-end Developer
+                Junior Full Stack Developer
             </h2>
 
             <span>
