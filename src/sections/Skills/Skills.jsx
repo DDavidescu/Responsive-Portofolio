@@ -29,6 +29,7 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="Canva" />
+        <SkillList src={checkMarkIcon} skill="Slack" />
       </div>
     </section>
   );
