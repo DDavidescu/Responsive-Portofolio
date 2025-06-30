@@ -15,7 +15,7 @@ function Projects() {
             src={medicalAs} 
             link={`https://ddavidescu.github.io/MedicalAs-2.0/`}
             h3="MedicalAs"
-            p="Elderly Assistance Website - in progress"
+            p="Elderly Assistance Website"
             />
             <ProjectCard 
             src={shadowDrive} 
