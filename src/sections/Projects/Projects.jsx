@@ -5,7 +5,8 @@ import ProjectCard from '../../common/ProjectCard'
 import GearQuest from '../../assets/GearQuest Logo.png'
 import RoyalFitness from '../../assets/Royal Fitness Logo.png'
 import Pokedex from '../../assets/Pokedex logo.png'
-import timeTracker from '../../assets/Time Tracker Logo.png'
+import timeTracker from '../../assets/TimeTrackerLogo.png'
+import geoTrio from '../../assets/GeotrioLogo.png'
 
 function Projects() {
   return (
@@ -13,10 +14,16 @@ function Projects() {
         <h1 className='sectionTitle'>Projects</h1>
         <div className={styles.projectsContainer}>
             <ProjectCard 
+            src={geoTrio} 
+            link={`https://ddavidescu.github.io/GEOTRIO/`}
+            h3="GEOTRIO"
+            p="Location-based Gaming Platform"
+            />
+            <ProjectCard 
             src={timeTracker} 
             link={`https://ddavidescu.github.io/TimeTracker/`}
             h3="Time Tracker"
-            p="Effortless productivity Time Tracker"
+            p="Time, productivity, daily progress tracker"
             />
             <ProjectCard 
             src={medicalAs} 
