@@ -5,12 +5,19 @@ import ProjectCard from '../../common/ProjectCard'
 import GearQuest from '../../assets/GearQuest Logo.png'
 import RoyalFitness from '../../assets/Royal Fitness Logo.png'
 import Pokedex from '../../assets/Pokedex logo.png'
+import timeTracker from '../../assets/Time Tracker Logo.png'
 
 function Projects() {
   return (
     <section id='projects' className={styles.container}>
         <h1 className='sectionTitle'>Projects</h1>
         <div className={styles.projectsContainer}>
+            <ProjectCard 
+            src={timeTracker} 
+            link={`https://ddavidescu.github.io/TimeTracker/`}
+            h3="Time Tracker"
+            p="Effortless productivity Time Tracker"
+            />
             <ProjectCard 
             src={medicalAs} 
             link={`https://ddavidescu.github.io/MedicalAs-2.0/`}
