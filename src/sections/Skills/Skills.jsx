@@ -18,11 +18,12 @@ function Skills() {
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Node" />
-        <SkillList src={checkMarkIcon} skill="React" />
+        <SkillList src={checkMarkIcon} skill="Node.js" />
+        <SkillList src={checkMarkIcon} skill="React.js" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
         <SkillList src={checkMarkIcon} skill="jQuery" />
-        <SkillList src={checkMarkIcon} skill="Express.js" />
+        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
+        <SkillList src={checkMarkIcon} skill="Typescript" />
         <SkillList src={checkMarkIcon} skill="PostgreSQL" />
       </div>
       <hr />
