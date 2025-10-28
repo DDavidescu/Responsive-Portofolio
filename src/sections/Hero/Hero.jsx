@@ -6,7 +6,7 @@ import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
 import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
-import CV from '../../assets/CV 2025 David Bau (1).pdf'
+import CV from '../../assets/CV Bau David.pdf'
 import { useTheme } from '../../common/ThemeContext'
 
 function Hero() {
@@ -44,7 +44,7 @@ function Hero() {
             </h2>
 
             <span>
-                <a href="https://www.linkedin.com/in/david-bau-67a65628b/" target='_blank'>
+                <a href="https://www.linkedin.com/in/dbau/" target='_blank'>
                     <img src={linkedinIcon} alt="LinkedIn Icon" />
                 </a>
                 <a href="https://github.com/DDavidescu" target='_blank'>
