@@ -7,13 +7,20 @@ import RoyalFitness from "../../assets/Royal Fitness Logo.png";
 import Pokedex from "../../assets/Pokedex logo.png";
 import timeTracker from "../../assets/TimeTrackerLogo.png";
 import geoTrio from "../../assets/GeotrioLogo.png";
-import chefChristian from "../../assets/ChefChristian Logo.png"
+import chefChristian from "../../assets/ChefChristian Logo.png";
+import robloxGameStudio from "../../assets/RobloxGameStudioLogo.png"
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={robloxGameStudio}
+          link={`https://ddavidescu.github.io/Roblox-Studio-Site/`}
+          h3="Roblox Game Studio"
+          p="Roblox Game Studio Presentation Site."
+        />
         <ProjectCard
           src={chefChristian}
           link={`https://ddavidescu.github.io/Chef-Christian/`}
